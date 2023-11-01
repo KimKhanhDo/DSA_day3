@@ -21,7 +21,7 @@ public class TheFeast {
 
 	}
 
-	// O(n)
+	// O(1)
 	public static int theFeast(int moneyToSpend, int priceEachCandy, int wrapperToExchange) {
 
 		int candies = moneyToSpend / priceEachCandy;
